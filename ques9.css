@@ -110,3 +110,18 @@ color: #1abc9c;
     text-align: center;
 }
 
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+  }
+  
+  
