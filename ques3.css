@@ -1,0 +1,41 @@
+header {
+    background-color:darkblue;
+    text-align:center;
+    color:white;
+}
+
+div{
+    background-color:blue;
+    text-align: right;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+a{
+    color:white;
+    font-size: 1.2rem;
+}
+main{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas: 
+    "section aside"
+    "figure article";
+    gap:10px;
+    padding:10px;
+}
+img{
+    width:400px;
+    height:150px;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+}
+mark{
+    background-color:lightblue;
+}

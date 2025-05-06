@@ -1,0 +1,131 @@
+header {
+    background-color:darkblue;
+    text-align:center;
+    color:white;
+    }
+    div{
+    background-color:blue;
+    text-align: right;
+    }
+    .box{
+    padding:1px;
+    margin:1px;
+    border: 2px;
+    border-color: black;
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    }
+    .box li{
+    text-align:left;
+    }
+    .box h2{
+    text-align: left;
+    }
+    .box dl{
+    text-align: left;
+    }
+    
+    body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin: 0;
+    height: 100vh;
+    justify-content: center; 
+    align-items: center;    
+
+    }
+    
+    a{
+    color:white;
+    font-size: 1.2rem;
+    }
+    
+footer{
+background-color: black;
+color:white;
+text-align: center;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+padding: 2rem 1rem;
+}
+nav {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .main-nav .nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .main-nav .nav-menu li {
+    margin: 0 10px;
+  }
+  
+  .main-nav .nav-menu a {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 220px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 220px;      /* fixed width matching card */
+    height: 140px;     /* fixed height */
+    object-fit: cover; /* ensures image fills area without distortion */
+    display: block;
+  }
+  
+  
+  .card h3 {
+    margin: 0.5rem 0 0;
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+    padding: 0 1rem 1rem;
+    font-size: 0.95rem;
+  }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ques7.css">
+    <title>Form</title>
+</head>
+<body>
+    <header><h1>Question 7</h1><time datetime="2025-04-19" >April 19, 2025</time></header>
+    <div>
+        <nav>
+            <a href="ques1.html">Question 1 | </a>
+            <a href="ques2.html">Question 2 |</a>
+            <a href="ques3.html">Question 3 |</a>
+            <a href="ques4.html">Question 4 |</a>
+            <a href="ques5.html">Question 5 |</a>
+            <a href="ques6.html">Question 6 </a>
+        </nav>
+    </div>
+    <form action="/submit" method="POST">
+        <h2>Sign Up</h2>
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" required /><br><br>
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required /><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required /><br><br>
+        <p>Choose A Subscription Plan:</p>
+        <input type="radio" id="free" name="plan" value="free">
+        <label for="free">Free</label><br><br>
+        <input type="radio" id="basic" name="plan" value="basic">
+        <label for="basic">Basic</label><br><br>
+        <input type="radio" id="premium" name="plan" value="premium">
+        <label for="prime">Prime</label><br><br>
+        <button type="submit">Sign up</button> 
+    </form>
+
+</body>
+</html>
+<footer>copyright @vinaya 2025</footer>
