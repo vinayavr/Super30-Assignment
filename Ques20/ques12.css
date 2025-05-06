@@ -1,0 +1,214 @@
+header {
+background-color:darkblue;
+text-align:center;
+color:white;
+}
+div{
+background-color:blue;
+text-align: right;
+}
+.box{
+padding:1px;
+margin:1px;
+border: 2px;
+border-color: black;
+background-color: aqua;
+text-align: center;
+justify-content: center;
+align-items: center;
+border-radius:10px;
+}
+.box li{
+text-align:left;
+}
+.box h2{
+text-align: left;
+}
+.box dl{
+text-align: left;
+}
+
+body{
+font-family: 'Times New Roman', Times, serif;
+font-size: 1.2rem;
+}
+
+a{
+color:white;
+font-size: 1.2rem;
+}
+
+footer{
+background-color: black;
+color:white;
+text-align: center;
+}
+button{
+background-color:aqua;
+}
+form{
+margin-left: 2% ;
+margin-bottom:1%;
+background: white;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+width: 320px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+input[type="radio"] {
+margin-right: 8px;
+}
+
+button {
+margin-top: 20px;
+width: 100%;
+padding: 10px;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #218838;
+}
+.nav-menu {
+display: flex;
+justify-content: center; /* Center items horizontally */
+gap: 40px;               /* Space between items */
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.nav-menu li a {
+text-decoration: none;
+color:black;
+font-size: 16px;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+color: #1abc9c;
+}
+.about{
+text-align: center;
+}
+
+
+.container {
+text-align: left;
+display: flex;
+flex-wrap: wrap;
+padding: 20px;
+gap: 20px;
+}
+
+
+
+main {
+background: white;
+padding: 20px;
+flex: 3 1 500px;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+padding: 20px;
+font-family: 'Segoe UI', sans-serif;
+background-color: #f9f9f9;
+}
+
+.card {
+background: #fff;
+text-align: left;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+overflow: hidden;
+display: flex;
+flex-direction: column;
+max-width: 100%;
+}
+
+.card img {
+text-align: left;
+width: 100%;
+height: auto;
+}
+
+.card-content {
+text-align: left;
+padding: 20px;
+}
+
+.card h2 {
+text-align: left;
+font-size: 1.2rem;
+margin-bottom: 10px;
+}
+
+.card p {
+text-align:left ;
+color: white;
+font-size: 0.95rem;
+margin-bottom: 15px;
+}
+
+.price {
+font-size: 1rem;
+font-weight: bold;
+color: white;
+margin-bottom: 15px;
+}
+
+.card button {
+padding: 10px 15px;
+border: none;
+background-color: #3498db;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+width: 100%;
+font-size: 1rem;
+}
+
+.card button:hover {
+background-color: #2980b9;
+}
+
+/* Responsive enhancements for tablets & desktops */
+@media (min-width: 600px) {
+.card {
+flex-direction: row;
+max-width: 700px;
+margin: auto;
+}
+
+.card img {
+width: 50%;
+height: auto;
+}
+
+.card-content {
+width: 50%;
+}
+}

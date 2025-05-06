@@ -1,0 +1,47 @@
+header {
+    background-color:darkblue;
+    text-align:center;
+    color:white;
+}
+div{
+    background-color:blue;
+    text-align: right;
+}
+.box{
+    padding:1px;
+    margin:1px;
+    border: 2px;
+    border-color: black;
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    
+}
+.box li{
+    text-align:left;
+}
+.box h2{
+    text-align: left;
+}
+.box dl{
+    text-align: left;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;    
+}
+table{
+    margin: 0 auto; border: 1px solid black;
+}
+a{
+    color:white;
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
